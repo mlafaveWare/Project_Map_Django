@@ -1,0 +1,7 @@
+streamlit
+pandas
+plotly.express
+pydeck
+st_aggrid
+folium
+leafmap
