@@ -13,7 +13,7 @@ st.set_page_config(
 
 hide_st_style = """
             <style>
-            MainMenu {visibility: hidden;}
+            MainMenu {visibility: visbile;}
             footer {visibility: hidden;}
             footer:after{visibility: visible; content: 'Powered by Ware Malcomb IT and Copyright Ⓒ Ware Malcomb 2022'; display:block; position:relative; color:#3c3835;}
             header {visibility: hidden;}
