@@ -21,18 +21,18 @@ hide_st_style = """
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
-st.markdown("""
-<style>
-    header[data-testid="stHeader"] {background: none;}
-</style>
-""",unsafe_allow_html=True,)
+# st.markdown("""
+# <style>
+#     header[data-testid="stHeader"] {background: none;}
+# </style>
+# """,unsafe_allow_html=True,)
 
-st.markdown("""
-<style>
-    .css-18e3th9 {margin-top: -6rem;
-    }
-</style>
-""",unsafe_allow_html=True,)
+# st.markdown("""
+# <style>
+#     .css-18e3th9 {margin-top: -6rem;
+#     }
+# </style>
+# """,unsafe_allow_html=True,)
 
 st.image("data/anniversary_small.png", width=400)
 
