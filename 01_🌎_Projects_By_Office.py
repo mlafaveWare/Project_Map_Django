@@ -13,26 +13,26 @@ st.set_page_config(
 
 hide_st_style = """
             <style>
-            MainMenu {visibility: visible;}
+            MainMenu {visibility: hidden;}
             footer {visibility: hidden;}
             footer:after{visibility: visible; content: 'Powered by Ware Malcomb IT and Copyright Ⓒ Ware Malcomb 2022'; display:block; position:relative; color:#3c3835;}
-            header {visibility: visible;}
+            header {visibility: hidden;}
             </style>
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
-# st.markdown("""
-# <style>
-#     header[data-testid="stHeader"] {background: none;}
-# </style>
-# """,unsafe_allow_html=True,)
+st.markdown("""
+<style>
+    header[data-testid="stHeader"] {background: none;}
+</style>
+""",unsafe_allow_html=True,)
 
-# st.markdown("""
-# <style>
-#     .css-18e3th9 {margin-top: -6rem;
-#     }
-# </style>
-# """,unsafe_allow_html=True,)
+st.markdown("""
+<style>
+    .css-18e3th9 {margin-top: -6rem;
+    }
+</style>
+""",unsafe_allow_html=True,)
 
 st.image("data/anniversary_small.png", width=400)
 
